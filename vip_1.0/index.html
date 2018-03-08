@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script type="text/javascript" src="test.js" ></script>
+		<script type="text/javascript" src="jquery-1.9.1.js" ></script>
+		<link rel="stylesheet"  type="text/css" href="test.css" >
+		
+		 
+	</head>
+	<body >
+		<script>  
+		
+			$(function(){
+				var data=readXML();
+				
+				var api=$("#api");
+				for(var i=0; i<data.length; i++){
+					api.append("<option value='"+data[i].api+"'>"+data[i].site+"</option>");
+				}	
+			});
+			
+			 
+
+		</script>	
+		
+		<div id="header" ></div>
+		
+		<div id="body" >
+			<div id="left"  >  </div>
+			<div id="middle"  >  
+				<div id="player">   </div>
+				<div id="select"> 
+					<p id="select_1">
+						<select id="api"  style="margin-left:100px; width:100px" ></select>
+						<input type="text" id="url"  style="margin-left:50px; width:400px"/>
+						<input type="button" id="play" value="播放"  style="margin-left:0; width:70px; height:40px" onclick="play()">
+					<p>	
+					
+				</div>
+			</div>
+			<div id="right"   >   </div>
+		</div>
+		
+		
+		<!-- <div id="footer" ></div> -->
+		
+		
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<api isValid="true" site="接口1">http://api.baiyug.cn/vip/index.php?url=</api>
+
+	<api isValid="true" site="接口3">http://api.baiyug.cn/vip/index.php?url=</api>
+	<api isValid="true" site="接口4">http://api.baiyug.cn/vip/index.php?url=</api>
+	<api isValid="true" site="接口5">http://api.baiyug.cn/vip/index.php?url=</api>
+	<api isValid="true" site="接口6">http://api.baiyug.cn/vip/index.php?url=</api>
+	<api isValid="true" site="接口7">http://api.baiyug.cn/vip/index.php?url=</api>
+	<api isValid="false" site=""></api>
+
+</root>
+
+
+
